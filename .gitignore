@@ -21,3 +21,13 @@ build/
 
 # Systeem caches
 Thumbs.db
+
+# macOS extra
+Icon?
+._*
+.AppleDouble
+.LSOverride
+
+# Windows extra
+desktop.ini
+ehthumbs.db
