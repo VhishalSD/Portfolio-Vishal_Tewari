@@ -1,0 +1,23 @@
+# IDE / editor bestanden
+.idea/
+.vscode/
+
+# macOS en iCloud bestanden
+.DS_Store
+*.icloud
+
+# Log- en tijdelijke bestanden
+*.log
+*.tmp
+*.bak
+
+# Node of andere buildmappen
+node_modules/
+dist/
+build/
+
+# Backupbestanden
+*~
+
+# Systeem caches
+Thumbs.db
