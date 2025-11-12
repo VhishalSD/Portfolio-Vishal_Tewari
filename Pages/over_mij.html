@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Mij | Vishal Tewari Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <a href="index.html" class="logo">
+        <img src="../images/LOGORED.png" alt="Logo" class="site-logo">
+        Vishal.
+    </a>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="#" class="active">Over Mij</a>
+        <a href="./opleidingen_certificaten.html">Opleidingen & Certificaten</a>
+        <a href="./werkervaring.html">Werkervaring</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./projecten.html">Projecten</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+</header>
+
+
+
+<section class="about">
+    <h2 class="heading">Over <span>Mij</span></h2>
+
+    <div class="about-container">
+        <div class="about-text">
+            <p>
+                Ik ben <strong>Vishal Tewari</strong>, BBL-student <strong>Software Developer</strong> aan het
+                <strong>Techniek College Rotterdam</strong>.
+                Naast mijn opleiding werk ik bij <strong>Stapelzorg</strong>, waar ik mijn programmeervaardigheden verder ontwikkel
+                in een echte werkomgeving.
+            </p>
+
+            <p>
+                Op dit moment werk ik aan projecten zoals mijn eigen <strong>InvoiceApp</strong>, waar ik gebruik maak van
+                <strong>C#, Entity Framework</strong> en <strong>SQLite</strong>.
+                Ik leg de nadruk op structuur, validatie en schone code die goed leesbaar blijft — iets wat ik belangrijk vind
+                in elk project.
+            </p>
+
+            <p>
+                Mijn interesse ligt bij software die niet alleen goed werkt, maar ook logisch is opgebouwd.
+                Ik denk graag in oplossingen, niet in problemen.
+            </p>
+
+            <p>
+                Uiteindelijk wil ik doorgroeien tot een <strong>full-stack developer</strong> die complete applicaties kan ontwerpen,
+                bouwen en optimaliseren — van database tot front-end, met oog voor detail en gebruiksgemak.
+            </p>
+
+            <a href="projecten.html" class="btn">Bekijk mijn projecten</a>
+        </div>
+
+        <div class="about-info-box">
+            <i class='bx bx-laptop'></i>
+            <h3>BBL Software Developer</h3>
+            <p>Techniek College Rotterdam</p>
+            <hr>
+            <i class='bx bx-briefcase'></i>
+            <h3>Werkplek</h3>
+            <p>Stapelzorg, Rotterdam</p>
+            <hr>
+            <h3>Hobby’s</h3>
+            <div class="about-hobbies">
+                <p><i class='bx bx-music'></i> Gitaar</p>
+                <p><i class='bx bx-joystick'></i> Gamen</p>
+                <p><i class='bx bx-infinite'></i> Turnen</p>
+            </div>
+            <hr>
+            <i class='bx bx-code-curly'></i>
+            <h3>Focus</h3>
+            <div class="skills-icons">
+                <i class='bx bxl-c-plus-plus' title="C#"></i>
+                <i class='bx bx-data' title="SQL / EF Core"></i>
+                <i class='bx bxl-html5' title="HTML5"></i>
+                <i class='bx bxl-css3' title="CSS3"></i>
+                <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="page-transition">
+    <img src="?../images/LOGOWOB.png" alt="Logo" class="transition-logo">
+</div>
+
+<footer>
+  <div class="footer-content">
+    <p>BBL-student Software Developer · Techniek College Rotterdam</p>
+
+    <div class="footer-socials">
+      <a href="contact.html" title="Contactformulier">
+        <i class='bx bx-message-rounded-dots'></i>
+      </a>
+      <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
+        <i class='bx bxl-github'></i>
+      </a>
+    </div>
+
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valide CSS!">
+        </a>
+    </p>
+    <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
+  </div>
+</footer>
+<script src="../js/script.js"></script>
+<script>
+    const menuIcon = document.querySelector('#menu-icon');
+    const nav = document.querySelector('nav');
+
+    menuIcon.onclick = () => {
+        nav.classList.toggle('active');
+    };
+</script>
+</body>
+</html>

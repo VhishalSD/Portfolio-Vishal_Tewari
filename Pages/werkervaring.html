@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werkervaring | Vishal Tewari Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <a href="index.html" class="logo">
+        <img src="../images/LOGORED.png" alt="Logo" class="site-logo">
+        Vishal.
+    </a>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./over_mij.html">Over Mij</a>
+        <a href="./opleidingen_certificaten.html">Opleidingen & Certificaten</a>
+        <a href="#" class="active">Werkervaring</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./projecten.html">Projecten</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+</header>
+
+
+<section class="experience">
+    <h2 class="heading">Mijn <span>Werkervaring</span></h2>
+
+    <div class="timeline">
+
+        <div class="experience-box">
+            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2020</div>
+            <h3>Cateringmedewerker – Evenemententechniek</h3>
+            <h4>Van Geert, Nederland</h4>
+            <p>Meegedraaid bij grote evenementen zoals het AFAS Tennistoernooi en feesten in de Laurenskerk.
+                Ik hielp mee met opbouwen, bedienen en zorgen dat alles goed verliep, ook bij drukte of als er iets misliep.</p>
+        </div>
+
+        <div class="experience-box">
+            <div class="year"><i class='bx bxs-calendar'></i> 2015 - 2018</div>
+            <h3>Callcentermedewerker – Klantcommunicatie & Dataregistratie</h3>
+            <h4>The Talent Factory, Rotterdam</h4>
+            <p>Telefonisch contact gehad met klanten voor verschillende projecten, inbound en outbound.
+                Ik werkte met CRM-systemen en vaste gespreksscripts, en leerde om duidelijk te communiceren en snel oplossingen te bedenken.
+                Topscoorder binnen het team.</p>
+        </div>
+
+        <div class="experience-box">
+            <div class="year"><i class='bx bxs-calendar'></i> 2015 - 2018</div>
+            <h3>Supermarktmedewerker – Teamondersteuning</h3>
+            <h4>Albert Heijn, Rotterdam</h4>
+            <p>Klanten geholpen aan de kassa en bij de servicebalie, met focus op service en samenwerking.
+                Verantwoordelijk voor het tellen van kassa’s, geldopslag en het afsluiten van de kluis.</p>
+        </div>
+
+        <div class="experience-box">
+            <div class="year"><i class='bx bxs-calendar'></i> 2012 - 2015</div>
+            <h3>Krantenbezorger</h3>
+            <h4>Rotterdams Dagblad, Rotterdam</h4>
+            <p>Kranten bezorgd voor het Rotterdams Dagblad, later Algemeen Dagblad en NRC.
+                Zelfstandig distributieroutes uitgevoerd, zes dagen per week — vóór en na schooltijd.
+                Daardoor sterke discipline, verantwoordelijkheidsgevoel en werktempo ontwikkeld.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <p>BBL-student Software Developer · Techniek College Rotterdam</p>
+
+    <div class="footer-socials">
+      <a href="contact.html" title="Contactformulier">
+        <i class='bx bx-message-rounded-dots'></i>
+      </a>
+      <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
+        <i class='bx bxl-github'></i>
+      </a>
+    </div>
+
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valide CSS!">
+        </a>
+    </p>
+    <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
+  </div>
+</footer>
+<script src="../js/script.js"></script>
+<script>
+    const menuIcon = document.querySelector('#menu-icon');
+    const nav = document.querySelector('nav');
+
+    menuIcon.onclick = () => {
+        nav.classList.toggle('active');
+    };
+</script>
+
+</body>
+</html>

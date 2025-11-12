@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecten | Vishal Tewari Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <a href="index.html" class="logo">
+        <img src="../images/LOGORED.png" alt="Logo" class="site-logo">
+        Vishal.
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="over_mij.html">Over Mij</a>
+        <a href="opleidingen_certificaten.html">Opleidingen & Certificaten</a>
+        <a href="werkervaring.html">Werkervaring</a>
+        <a href="skills.html">Skills</a>
+        <a href="projecten.html" class="active">Projecten</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="projects">
+    <div class="github-section">
+        <h2 class="heading">Mijn <span>GitHub</span></h2>
+        <a href="https://github.com/VhishalSD" target="_blank" title="GitHub-profiel">
+            <i class='bx bxl-github github-icon'></i>
+        </a>
+        <p>Bekijk mijn projecten, code en activiteit op mijn officiële GitHub-profiel.</p>
+    </div>
+
+    <h2 class="heading">Mijn <span>Projecten</span></h2>
+
+    <div class="projects-container">
+        <div class="project-box">
+            <i class='bx bx-terminal'></i>
+            <h3>Console Menu</h3>
+            <p>Het hoofdmenu van mijn InvoiceApp. Hier kan de gebruiker kiezen om facturen te bekijken, toe te voegen, bij te werken of te verwijderen. Dit vormt de kern van de consoleapplicatie en biedt een overzichtelijke gebruikerservaring.</p>
+            <div class="tech-list">
+                <span>C#</span><span>.NET 8</span><span>Console</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/Menu.png" alt="Console hoofdmenu van InvoiceApp">
+            </div>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-list-ul'></i>
+            <h3>Console Overzicht</h3>
+            <p>Een overzichtsscherm van alle facturen die in de database zijn opgeslagen. Het toont klant, datum, subtotalen, btw en totaalbedragen. Dit bewijst dat de applicatie succesvol verbinding maakt met de SQLite-database via Entity Framework Core.</p>
+            <div class="tech-list">
+                <span>EF Core</span><span>SQLite</span><span>C#</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/Overzicht.png" alt="Overzichtsscherm InvoiceApp Console">
+            </div>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-test-tube'></i>
+            <h3>Unit Tests</h3>
+            <p>Met XUnit heb ik automatische tests geschreven voor mijn API. Deze testen controleren of alle CRUD-acties correct werken en of de API-juiste HTTP-statuscodes teruggeeft. Alle 18 tests zijn geslaagd.</p>
+            <div class="tech-list">
+                <span>XUnit</span><span>.NET</span><span>Testing</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/Unittest.png" alt="XUnit Unit Tests overzicht">
+            </div>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-send'></i>
+            <h3>Postman API Test</h3>
+            <p>De API getest in Postman met verschillende requests (GET, POST, PUT, DELETE). Hier zie je een succesvolle JSON-response met factuurgegevens. Hiermee heb ik gecontroleerd dat de endpoints stabiel en correct werken.</p>
+            <div class="tech-list">
+                <span>Postman</span><span>API</span><span>Testing</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/Postman.png" alt="Postman testresultaten API">
+            </div>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-cloud'></i>
+            <h3>Swagger API</h3>
+            <p>De web-API met Swagger UI, waarmee alle endpoints eenvoudig getest kunnen worden. De Swagger-interface toont de routes voor GET, POST, PUT en DELETE, volledig gekoppeld aan de SQLite-database.</p>
+            <div class="tech-list">
+                <span>Swagger</span><span>ASP.NET Core</span><span>Web API</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/Swagger.png" alt="Swagger API overzicht">
+            </div>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-data'></i>
+            <h3>DB Browser</h3>
+            <p>De SQLite-database geopend in DB Browser. Hier zijn alle tabellen, facturen en factuurregels zichtbaar. Dit toont aan dat de data die vanuit de API en Console wordt ingevoerd daadwerkelijk wordt opgeslagen.</p>
+            <div class="tech-list">
+                <span>SQLite</span><span>DB Browser</span><span>Entity Framework Core</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/Dbbrowser.png" alt="SQLite database in DB Browser">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>BBL-student Software Developer · Techniek College Rotterdam</p>
+
+        <div class="footer-socials">
+            <a href="contact.html" title="Contactformulier">
+                <i class='bx bx-message-rounded-dots'></i>
+            </a>
+            <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valide CSS!">
+            </a>
+        </p>
+        <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
+    </div>
+</footer>
+<script>
+    const menuIcon = document.querySelector('#menu-icon');
+    const nav = document.querySelector('nav');
+
+    menuIcon.onclick = () => {
+        nav.classList.toggle('active');
+    };
+</script>
+<!-- Modal voor screenshot-vergroting -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg" src="" alt="Vergrote projectafbeelding">
+</div>
+
+<!-- Zorg dat je script daarna komt -->
+<script src="../js/script.js"></script>
+</body>
+</body>
+</html>

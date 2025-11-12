@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Vishal Tewari Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <a href="index.html" class="logo">
+        <img src="../images/LOGORED.png" alt="Logo" class="site-logo">
+        Vishal.
+    </a>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./over_mij.html">Over Mij</a>
+        <a href="./opleidingen_certificaten.html">Opleidingen & Certificaten</a>
+        <a href="./werkervaring.html">Werkervaring</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./projecten.html">Projecten</a>
+        <a href="#" class="active">Contact</a>
+    </nav>
+</header>
+
+
+<section class="contact">
+    <h2 class="heading">Neem <span>Contact</span> Op</h2>
+    <p class="contact-subtext">
+        Heb je een vraag, stageverzoek of wil je samenwerken aan een project?
+        Stuur me direct een bericht via het formulier hieronder.
+    </p>
+
+    <form action="mailto:vkhehim@gmail.com" method="post" enctype="text/plain" class="contact-form">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Naam" required>
+            <input type="email" name="email" placeholder="E-mailadres" required>
+        </div>
+        <textarea name="message" rows="6" placeholder="Bericht" required></textarea>
+        <button type="submit" class="btn"><i class='bx bx-send'></i> Verstuur bericht</button>
+    </form>
+</section>
+<footer>
+  <div class="footer-content">
+    <p>BBL-student Software Developer · Techniek College Rotterdam</p>
+
+    <div class="footer-socials">
+      <a href="contact.html" title="Contactformulier">
+        <i class='bx bx-message-rounded-dots'></i>
+      </a>
+      <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
+        <i class='bx bxl-github'></i>
+      </a>
+    </div>
+
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valide CSS!">
+        </a>
+    </p>
+    <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
+  </div>
+</footer>
+<script src="../js/script.js"></script>
+<script>
+    const menuIcon = document.querySelector('#menu-icon');
+    const nav = document.querySelector('nav');
+
+    menuIcon.onclick = () => {
+        nav.classList.toggle('active');
+    };
+</script>
+</body>
+</html>
