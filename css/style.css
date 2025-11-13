@@ -1279,7 +1279,15 @@ section.active {
 /* =========================================================
    HOVER-EFFECTEN ALLEEN VOOR DESKTOP
 ========================================================= */
-@media (hover: hover) and (pointer: fine) {
+@media (max-width: 900px) {
+
+    /* Layout fixes */
+    .about-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    /*  Hover uitschakelen op mobiel voor ALLE boxen */
     .skill-box:hover,
     .edu-box:hover,
     .experience-box:hover,
@@ -1287,9 +1295,9 @@ section.active {
     .language-box:hover,
     .about-info-box:hover,
     .certificate-box:hover {
-        transform: scale(1.1);
-        box-shadow: 0 0 2rem var(--main-color);
-        border-color: var(--main-color);
+        transform: none !important;
+        box-shadow: none !important;
+        border-color: transparent !important;
     }
 }
 
