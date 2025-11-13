@@ -1309,6 +1309,42 @@ section.active {
 }
 
 /* =========================================================
+   BEDANKT PAGINA
+========================================================= */
+
+.thanks {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.2rem;
+    padding: 40px 20px;
+}
+
+.thanks h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.thanks p {
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+.thanks .btn {
+    margin-top: 1rem;
+}
+
+.thanks h1 span {
+    color: var(--main-color);
+}
+
+/* =========================================================
    FOOTER
 ========================================================= */
 
