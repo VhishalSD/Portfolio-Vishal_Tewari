@@ -379,7 +379,7 @@ section.active {
 
 /* Hover-effect */
 .skill-box:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
     box-shadow: 0 0 2rem var(--main-color);
     border-color: var(--main-color);
 }
@@ -482,7 +482,7 @@ section.active {
 
 /* Subtiele vergroting bij hover */
 .experience-box:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
     border-color: var(--main-color);
     box-shadow: 0 0 2rem var(--main-color);
 }
@@ -752,7 +752,7 @@ section.active {
 }
 
 .edu-box:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     box-shadow: 0 0 2rem var(--main-color);
     border-color: var(--main-color);
 }
@@ -945,7 +945,7 @@ section.active {
 .language-box:hover {
     box-shadow: 0 0 2rem var(--main-color);
     border-color: var(--main-color);
-    transform: scale(1.15);
+    transform: scale(1.05);
 
 }
 
@@ -1110,7 +1110,7 @@ section.active {
 }
 
 .project-box:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     border-color: var(--main-color);
     box-shadow: 0 0 2rem var(--main-color);
 }
@@ -1287,7 +1287,7 @@ section.active {
         text-align: center;
     }
 
-    /*  Hover uitschakelen op mobiel voor ALLE boxen */
+    /* Hover uitschakelen op mobiel voor ALLE boxen */
     .skill-box:hover,
     .edu-box:hover,
     .experience-box:hover,
