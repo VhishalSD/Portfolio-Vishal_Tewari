@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="Pagina-1" id="yh9CsBtpRCfbBZr997LQ">
+    <mxGraphModel dx="946" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pI0GpzqoeX9SNPVt_lFY-1" value="PAGE TITLE&lt;div&gt;&quot;Neem contact op&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="280" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pI0GpzqoeX9SNPVt_lFY-2" value="&lt;h2&gt;&lt;b&gt;SUBTEXT&lt;/b&gt;&lt;/h2&gt;&lt;p class=&quot;p3&quot;&gt;Ik neem zo snel mogelijk contact met je op.&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pI0GpzqoeX9SNPVt_lFY-3" value="&lt;h2&gt;&lt;b&gt;BUTTON&lt;/b&gt;&lt;/h2&gt;&lt;p class=&quot;p3&quot;&gt;Terug naar Home&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="520" width="164" height="45.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

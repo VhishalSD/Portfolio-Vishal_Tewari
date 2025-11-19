@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="Pagina-1" id="4IVeHsJO0QN0LZn_4C2m">
+    <mxGraphModel dx="946" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-1" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); text-align: start;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;HEADER &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); text-align: start;&quot;&gt;|&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;[Logo] &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;Home | Over mij | Opleidingen | Werkervaring | ...&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="20" width="810" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-2" value="PAGE TITLE&lt;div&gt;&quot;Skills&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-3" value="&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;C# &amp;amp; .NET Development&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;Ik bouw console- en API-apps met C#. Ik let op structuur, validatie en nette code.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-5" value="&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Entity Framework Core &amp;amp; SQLite&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;Ik gebruik EF Core voor databasebeheer met LINQ en migraties.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-6" value="&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Git &amp;amp; GitHub&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;Ik werk met repositories, commits en branches. Mijn projecten staan netjes op GitHub.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="569" y="240" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-7" value="&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;HTML, CSS &amp;amp; JavaScript&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;Moderne websites met HTML5, CSS3 en JS. Animaties en responsive design.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-8" value="&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;API’s &amp;amp; JSON&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;Ik test en gebruik REST-API’s met Postman en Swagger.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-9" value="&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Tools &amp;amp; Omgevingen&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;Visual Studio, VS Code, Postman, GitHub Desktop. macOS én Windows.&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-10" value="SECTIE TITLE&lt;div&gt;&quot;Talen&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="700" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-12" value="&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Nederlands&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;Goed in spreken en schrijven, gebruik ik dagelijks.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-13" value="&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Engels (C2)&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;Zeer vloeiend. Gebruik ik in code, school en communicatie.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-14" value="&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Hindi&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;Ik kan lezen en schrijven; niet perfect vloeiend maar goed genoeg.&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1020" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-V7BG44ATMsN7y5zcx-15" value="&lt;h2&gt;&lt;b&gt;FOOTER&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tekst + Social Icons&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p3&quot;&gt;(Contact + GitHub)&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1140" width="770" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
