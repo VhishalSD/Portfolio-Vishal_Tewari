@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bekijk de softwareprojecten van Vishal Tewari, waaronder console-apps, API’s, databases, unit tests en web development.">
     <title>Projecten | Vishal Tewari Portfolio</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<!-- Navigatiebalk met logo en menu -->
 <header>
     <i class='bx bx-menu' id="menu-icon"></i>
     <a href="../index.html" class="logo">
@@ -26,6 +28,7 @@
 </header>
 
 <section class="projects">
+    <!-- Sectie met mijn GitHub-profiel en link -->
     <div class="github-section">
         <h2 class="heading">Mijn <span>GitHub</span></h2>
         <a href="https://github.com/VhishalSD" target="_blank" title="GitHub-profiel">
@@ -34,9 +37,11 @@
         <p>Bekijk mijn projecten, code en activiteit op mijn officiële GitHub-profiel.</p>
     </div>
 
+    <!-- Hoofdsectie met alle projectkaarten -->
     <h2 class="heading">Mijn <span>Projecten</span></h2>
 
     <div class="projects-container">
+        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-terminal'></i>
             <h3>Console Menu</h3>
@@ -49,6 +54,7 @@
             </div>
         </div>
 
+        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-list-ul'></i>
             <h3>Console Overzicht</h3>
@@ -61,6 +67,7 @@
             </div>
         </div>
 
+        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-test-tube'></i>
             <h3>Unit Tests</h3>
@@ -73,6 +80,7 @@
             </div>
         </div>
 
+        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-send'></i>
             <h3>Postman API Test</h3>
@@ -85,6 +93,7 @@
             </div>
         </div>
 
+        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-cloud'></i>
             <h3>Swagger API</h3>
@@ -97,6 +106,7 @@
             </div>
         </div>
 
+        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-data'></i>
             <h3>DB Browser</h3>
@@ -111,6 +121,7 @@
     </div>
 </section>
 
+<!-- Footer met socials en validator -->
 <footer>
     <div class="footer-content">
         <p>BBL-student Software Developer · Techniek College Rotterdam</p>
@@ -134,6 +145,7 @@
         <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
     </div>
 </footer>
+<!-- Extern script voor modals en functionaliteit -->
 <script>
     const menuIcon = document.querySelector('#menu-icon');
     const nav = document.querySelector('nav');
@@ -142,14 +154,13 @@
         nav.classList.toggle('active');
     };
 </script>
-<!-- Modal voor screenshot-vergroting -->
+<!-- Modal voor vergrote screenshots -->
 <div id="imageModal" class="modal">
     <span class="close">&times;</span>
-    <img class="modal-content" id="modalImg" src="" alt="Vergrote projectafbeelding">
+    <img class="modal-content" id="modalImg" src="#" alt="Vergrote projectafbeelding">
 </div>
 
 <!-- Zorg dat je script daarna komt -->
 <script src="../js/script.js"></script>
-</body>
 </body>
 </html>
