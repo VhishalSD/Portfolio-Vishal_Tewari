@@ -1630,3 +1630,32 @@ footer .footer-text {
 }
 
 
+/* =========================================================
+   PROFILE PHOTO HOVER BADGE
+========================================================= */
+
+.img-box {
+    position: relative;
+}
+
+.img-hover-badge {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.img-box:hover .img-hover-badge {
+    opacity: 1;
+}
+
+
