@@ -140,11 +140,19 @@
             <p>Codecademy</p>
             <a href="../Certificates/Build.pdf" target="_blank" class="btn">Bekijk Certificaat</a>
         </div>
+
         <div class="certificate-box">
             <i class='bx bxl-javascript'></i>
             <h3>Build Interactive JavaScript Websites</h3>
             <p>Codecademy</p>
             <a href="../Certificates/Building-JavaScript.pdf" target="_blank" class="btn">Bekijk Certificaat</a>
+        </div>
+
+        <div class="certificate-box">
+            <i class='bx bxl-php'></i>
+            <h3>Learn PHP</h3>
+            <p>Codecademy</p>
+            <a href="../Certificates/PHP.pdf" target="_blank" class="btn">Bekijk Certificaat</a>
         </div>
 
     </div>
@@ -156,34 +164,39 @@
         <p class="footer-role">BBL-student Software Developer · Techniek College Rotterdam</p>
 
         <div class="footer-socials">
-            <a href="contact.html" title="Contactformulier">
+            <a href="../Pages/contact.html" title="Contactformulier">
                 <i class='bx bx-message-rounded-dots'></i>
             </a>
             <a href="https://github.com/VhishalSD" target="_blank" title="GitHub-profiel">
                 <i class='bx bxl-github'></i>
             </a>
-        </div><script>
-        const menuIcon = document.querySelector('#menu-icon');
-        const nav = document.querySelector('nav');
-
-        menuIcon.onclick = () => {
-            nav.classList.toggle('active');
-        };
-    </script>
+        </div>
 
         <div class="footer-validation" style="text-align:center; margin-top:1rem;">
             <p>
                 <a href="https://jigsaw.w3.org/css-validator/check/referer">
                     <img style="border:0;width:88px;height:31px"
-                        src="https://jigsaw.w3.org/css-validator/images/vcss"
-                        alt="Valide CSS!">
+                         src="https://jigsaw.w3.org/css-validator/images/vcss"
+                         alt="Valide CSS!">
                 </a>
             </p>
         </div>
-        <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
+
+        <p class="footer-text">© 2025 Vishal Tewari</p>
     </div>
 </footer>
-<!-- Script voor menu en animaties -->
+
+<!-- Script voor menu -->
+<script>
+    const menuIcon = document.querySelector('#menu-icon');
+    const nav = document.querySelector('nav');
+
+    menuIcon.onclick = () => {
+        nav.classList.toggle('active');
+    };
+</script>
+
+<!-- Hoofdscript -->
 <script src="../js/script.js"></script>
 
 </body>

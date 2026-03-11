@@ -127,7 +127,7 @@
         <p>BBL-student Software Developer · Techniek College Rotterdam</p>
 
         <div class="footer-socials">
-            <a href="contact.html" title="Contactformulier">
+            <a href="../Pages/contact.html" title="Contactformulier">
                 <i class='bx bx-message-rounded-dots'></i>
             </a>
             <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
@@ -138,14 +138,22 @@
         <p>
             <a href="https://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
-                    src="https://jigsaw.w3.org/css-validator/images/vcss"
-                    alt="Valide CSS!">
+                     src="https://jigsaw.w3.org/css-validator/images/vcss"
+                     alt="Valide CSS!">
             </a>
         </p>
+
         <p class="footer-text">© 2025 Vishal Tewari – All by myself.</p>
     </div>
 </footer>
-<!-- Extern script voor modals en functionaliteit -->
+
+<!-- Modal voor vergrote screenshots -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg" src="#" alt="Vergrote projectafbeelding">
+</div>
+
+<!-- Menu script -->
 <script>
     const menuIcon = document.querySelector('#menu-icon');
     const nav = document.querySelector('nav');
@@ -154,13 +162,9 @@
         nav.classList.toggle('active');
     };
 </script>
-<!-- Modal voor vergrote screenshots -->
-<div id="imageModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modalImg" src="#" alt="Vergrote projectafbeelding">
-</div>
 
-<!-- Zorg dat je script daarna komt -->
+<!-- Hoofdscript -->
 <script src="../js/script.js"></script>
+
 </body>
 </html>
