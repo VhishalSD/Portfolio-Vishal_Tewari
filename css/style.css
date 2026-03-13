@@ -774,9 +774,17 @@
         border: 2px solid transparent;
         border-radius: 1.5rem;
         padding: 3rem 2rem;
-        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 1rem rgba(0,0,0,0.3);
         transition: 0.4s ease;
         cursor: default;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificate-box .btn {
+        margin-top: auto;
+        align-self: flex-start;
     }
 
     /* Buttons en links in de certificaat-kaarten klikbaar */
@@ -810,7 +818,7 @@
     .certificate-box p {
         font-size: 1.4rem;
         color: #ccc;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     /* Lightbox viewer – toont certificaat screenshots fullscreen */
