@@ -796,20 +796,21 @@
     .certificate-box i {
         font-size: 4.5rem;
         color: var(--main-color);
-        margin-bottom: 1rem;
+        margin-bottom: 2.5rem;
     }
 
     /* Titel van het certificaat */
     .certificate-box h3 {
         font-size: 1.8rem;
         color: var(--white-color);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.6rem;
     }
 
     /* Korte beschrijving van het certificaat */
     .certificate-box p {
         font-size: 1.4rem;
         color: #ccc;
+        margin-bottom: 2rem;
     }
 
     /* Lightbox viewer – toont certificaat screenshots fullscreen */
@@ -898,7 +899,7 @@
     .edu-box i {
         font-size: 4rem;
         color: var(--main-color);
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
 
     /* Titel + subtitel + tekst binnen de kaart */
@@ -932,7 +933,7 @@
     .edu-box {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         height: 100%;
     }
 
