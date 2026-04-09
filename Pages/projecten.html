@@ -9,7 +9,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<!-- Navigatiebalk met logo en menu -->
 <header>
     <i class='bx bx-menu' id="menu-icon"></i>
     <a href="../index.html" class="logo">
@@ -28,7 +27,6 @@
 </header>
 
 <section class="projects">
-    <!-- Sectie met mijn GitHub-profiel en link -->
     <div class="github-section">
         <h2 class="heading">Mijn <span>GitHub</span></h2>
         <a href="https://github.com/VhishalSD" target="_blank" title="GitHub-profiel">
@@ -37,11 +35,9 @@
         <p>Bekijk mijn projecten, code en activiteit op mijn officiële GitHub-profiel.</p>
     </div>
 
-    <!-- Hoofdsectie met alle projectkaarten -->
     <h2 class="heading">Mijn <span>Projecten</span></h2>
 
     <div class="projects-container">
-        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-terminal'></i>
             <h3>Console Menu</h3>
@@ -54,7 +50,6 @@
             </div>
         </div>
 
-        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-list-ul'></i>
             <h3>Console Overzicht</h3>
@@ -67,7 +62,6 @@
             </div>
         </div>
 
-        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-test-tube'></i>
             <h3>Unit Tests</h3>
@@ -80,7 +74,6 @@
             </div>
         </div>
 
-        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-send'></i>
             <h3>Postman API Test</h3>
@@ -93,7 +86,6 @@
             </div>
         </div>
 
-        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-cloud'></i>
             <h3>Swagger API</h3>
@@ -106,7 +98,6 @@
             </div>
         </div>
 
-        <!-- Projectkaart -->
         <div class="project-box">
             <i class='bx bx-data'></i>
             <h3>DB Browser</h3>
@@ -118,10 +109,25 @@
                 <img src="../images/Dbbrowser.png" alt="SQLite database in DB Browser">
             </div>
         </div>
+
+        <div class="project-box">
+            <i class='bx bx-desktop'></i>
+            <h3>InvoiceApp Web</h3>
+            <p>Een interactieve front-end factuurapplicatie waarmee gebruikers facturen kunnen toevoegen, bekijken, bewerken, verwijderen en zoeken. De applicatie bevat een dashboard met statistieken, formuliervalidatie, light/dark mode en opslag via localStorage. Via de live demo kan de applicatie direct getest worden in de browser.</p>
+            <div class="tech-list">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>localStorage</span>
+            </div>
+            <div class="screenshots">
+                <img src="../images/InvoiceApp.png" alt="Dashboard van InvoiceApp Web">
+            </div>
+            <div class="project-links">
+                <a href="https://vhishalsd.github.io/InvoiceApp.Java/" target="_blank">Live Demo</a>
+                <a href="https://github.com/VhishalSD/InvoiceApp.Java" target="_blank">GitHub</a>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- Footer met socials en validator -->
 <footer>
     <div class="footer-content">
         <p>BBL-student Software Developer · Techniek College Rotterdam</p>
@@ -147,13 +153,11 @@
     </div>
 </footer>
 
-<!-- Modal voor vergrote screenshots -->
 <div id="imageModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="modalImg" src="#" alt="Vergrote projectafbeelding">
 </div>
 
-<!-- Menu script -->
 <script>
     const menuIcon = document.querySelector('#menu-icon');
     const nav = document.querySelector('nav');
@@ -163,7 +167,6 @@
     };
 </script>
 
-<!-- Hoofdscript -->
 <script src="../js/script.js"></script>
 
 </body>
