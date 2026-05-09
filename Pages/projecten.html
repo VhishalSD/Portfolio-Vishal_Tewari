@@ -39,86 +39,50 @@
 
     <div class="projects-container">
         <div class="project-box">
-            <i class='bx bx-terminal'></i>
-            <h3>Console Menu</h3>
-            <p>Het hoofdmenu van mijn InvoiceApp. Hier kan de gebruiker kiezen om facturen te bekijken, toe te voegen, bij te werken of te verwijderen. Dit vormt de kern van de consoleapplicatie en biedt een overzichtelijke gebruikerservaring.</p>
+            <i class='bx bx-buildings'></i>
+            <h3>Signage App</h3>
+            <p>Een praktijkproject voor een vastgoedkantoor waarmee vastgoedslides, bedrijfsbranding en extra informatie op een verticaal digitaal scherm worden weergegeven. De applicatie ondersteunt drie zichtbare templates voor Reliplan, Vastgoed Experts en Financieel Experts. Het project bestaat uit een schermweergave en een beheeromgeving die is opgebouwd met ASP.NET Razor Pages, C# en .NET.</p>
             <div class="tech-list">
-                <span>C#</span><span>.NET 8</span><span>Console</span>
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>C#</span><span>ASP.NET Razor Pages</span><span>.NET</span>
             </div>
-            <div class="screenshots">
-                <img src="../images/Menu.png" alt="Console hoofdmenu van InvoiceApp">
+            <div class="screenshots screenshot-scroll">
+                <img src="../images/SignageApp.png" alt="Signage App overzicht met actieve en inactieve slides">
+                <img src="../images/SignageApp-Add.png" alt="Signage App nieuwe slide toevoegen">
+                <img src="../images/SignageApp-Edit.png" alt="Signage App bestaande slide bewerken">
+                <img src="../images/SignageApp-Preview.png" alt="Signage App live preview van schermweergave">
+            </div>
+            <div class="project-links">
+                <a href="https://reliplan-admin.github.io/Signage/" target="_blank">Live Demo</a>
+                <a href="https://github.com/VhishalSD/SignageAdmin.Web" target="_blank">GitHub</a>
             </div>
         </div>
 
         <div class="project-box">
-            <i class='bx bx-list-ul'></i>
-            <h3>Console Overzicht</h3>
-            <p>Een overzichtsscherm van alle facturen die in de database zijn opgeslagen. Het toont klant, datum, subtotalen, btw en totaalbedragen. Dit bewijst dat de applicatie succesvol verbinding maakt met de SQLite-database via Entity Framework Core.</p>
+            <i class='bx bx-map-alt'></i>
+            <h3>NAVLOG</h3>
+            <p>Een schoolproject voor het beheren van vluchten, legs en brandstofberekeningen. De applicatie gebruikt PHP, MySQL, PDO en objectgerichte logica met Leg- en LegArray-classes. Hiermee laat ik zien dat ik databasegegevens kan koppelen aan PHP-objecten en deze kan tonen in een werkende interface.</p>
             <div class="tech-list">
-                <span>EF Core</span><span>SQLite</span><span>C#</span>
+                <span>PHP</span><span>MySQL</span><span>PDO</span><span>JavaScript</span><span>CSS3</span>
             </div>
             <div class="screenshots">
-                <img src="../images/Overzicht.png" alt="Overzichtsscherm InvoiceApp Console">
+                <img src="../images/Navlog.png" alt="NAVLOG dashboard met flight, legs en fuel calculation">
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/VhishalSD/Navlog" target="_blank">GitHub</a>
             </div>
         </div>
 
         <div class="project-box">
-            <i class='bx bx-test-tube'></i>
-            <h3>Unit Tests</h3>
-            <p>Met XUnit heb ik automatische tests geschreven voor mijn API. Deze testen controleren of alle CRUD-acties correct werken en of de API-juiste HTTP-statuscodes teruggeeft. Alle 18 tests zijn geslaagd.</p>
-            <div class="tech-list">
-                <span>XUnit</span><span>.NET</span><span>Testing</span>
-            </div>
-            <div class="screenshots">
-                <img src="../images/Unittest.png" alt="XUnit Unit Tests overzicht">
-            </div>
-        </div>
-
-        <div class="project-box">
-            <i class='bx bx-send'></i>
-            <h3>Postman API Test</h3>
-            <p>De API getest in Postman met verschillende requests (GET, POST, PUT, DELETE). Hier zie je een succesvolle JSON-response met factuurgegevens. Hiermee heb ik gecontroleerd dat de endpoints stabiel en correct werken.</p>
-            <div class="tech-list">
-                <span>Postman</span><span>API</span><span>Testing</span>
-            </div>
-            <div class="screenshots">
-                <img src="../images/Postman.png" alt="Postman testresultaten API">
-            </div>
-        </div>
-
-        <div class="project-box">
-            <i class='bx bx-cloud'></i>
-            <h3>Swagger API</h3>
-            <p>De web-API met Swagger UI, waarmee alle endpoints eenvoudig getest kunnen worden. De Swagger-interface toont de routes voor GET, POST, PUT en DELETE, volledig gekoppeld aan de SQLite-database.</p>
-            <div class="tech-list">
-                <span>Swagger</span><span>ASP.NET Core</span><span>Web API</span>
-            </div>
-            <div class="screenshots">
-                <img src="../images/Swagger.png" alt="Swagger API overzicht">
-            </div>
-        </div>
-
-        <div class="project-box">
-            <i class='bx bx-data'></i>
-            <h3>DB Browser</h3>
-            <p>De SQLite-database geopend in DB Browser. Hier zijn alle tabellen, facturen en factuurregels zichtbaar. Dit toont aan dat de data die vanuit de API en Console wordt ingevoerd daadwerkelijk wordt opgeslagen.</p>
-            <div class="tech-list">
-                <span>SQLite</span><span>DB Browser</span><span>Entity Framework Core</span>
-            </div>
-            <div class="screenshots">
-                <img src="../images/Dbbrowser.png" alt="SQLite database in DB Browser">
-            </div>
-        </div>
-
-        <div class="project-box">
-            <i class='bx bx-desktop'></i>
+            <i class='bx bx-receipt'></i>
             <h3>InvoiceApp Web</h3>
-            <p>Een interactieve front-end factuurapplicatie waarmee gebruikers facturen kunnen toevoegen, bekijken, bewerken, verwijderen en zoeken. De applicatie bevat een dashboard met statistieken, formuliervalidatie, light/dark mode en opslag via localStorage. Via de live demo kan de applicatie direct getest worden in de browser.</p>
+            <p>Een interactieve factuurapplicatie waarmee gebruikers facturen kunnen toevoegen, bekijken, bewerken, verwijderen en zoeken. De applicatie bevat dashboardstatistieken, formuliervalidatie, light/dark mode en opslag via localStorage.</p>
             <div class="tech-list">
                 <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>localStorage</span>
             </div>
-            <div class="screenshots">
+            <div class="screenshots screenshot-scroll">
                 <img src="../images/InvoiceApp.png" alt="Dashboard van InvoiceApp Web">
+                <img src="../images/InvoiceApp-Form.png" alt="InvoiceApp factuur toevoegen formulier">
+                <img src="../images/InvoiceApp-Invoices.png" alt="InvoiceApp facturenoverzicht met bewerken en verwijderen">
             </div>
             <div class="project-links">
                 <a href="https://vhishalsd.github.io/InvoiceApp.Java/" target="_blank">Live Demo</a>
@@ -133,7 +97,7 @@
         <p>BBL-student Software Developer · Techniek College Rotterdam</p>
 
         <div class="footer-socials">
-            <a href="../Pages/contact.html" title="Contactformulier">
+            <a href="contact.html" title="Contactformulier">
                 <i class='bx bx-message-rounded-dots'></i>
             </a>
             <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
@@ -155,19 +119,113 @@
 
 <div id="imageModal" class="modal">
     <span class="close">&times;</span>
+    <button class="modal-nav modal-prev" type="button" aria-label="Vorige afbeelding">&#10094;</button>
     <img class="modal-content" id="modalImg" src="#" alt="Vergrote projectafbeelding">
+    <button class="modal-nav modal-next" type="button" aria-label="Volgende afbeelding">&#10095;</button>
 </div>
 
 <script>
-    const menuIcon = document.querySelector('#menu-icon');
-    const nav = document.querySelector('nav');
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuIcon = document.querySelector('#menu-icon');
+        const nav = document.querySelector('nav');
+        const modal = document.querySelector('#imageModal');
+        const modalImg = document.querySelector('#modalImg');
+        const closeModal = document.querySelector('.close');
+        const prevButton = document.querySelector('.modal-prev');
+        const nextButton = document.querySelector('.modal-next');
+        const screenshotGroups = document.querySelectorAll('.screenshots');
+        let currentImages = [];
+        let currentImageIndex = 0;
 
-    menuIcon.onclick = () => {
-        nav.classList.toggle('active');
-    };
+        if (menuIcon && nav) {
+            menuIcon.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        }
+
+        const updateNavigationButtons = () => {
+            const hasMultipleImages = currentImages.length > 1;
+
+            prevButton.style.display = hasMultipleImages ? 'flex' : 'none';
+            nextButton.style.display = hasMultipleImages ? 'flex' : 'none';
+        };
+
+        const showImage = (index) => {
+            if (!modal || !modalImg || currentImages.length === 0) {
+                return;
+            }
+
+            currentImageIndex = (index + currentImages.length) % currentImages.length;
+            const selectedImage = currentImages[currentImageIndex];
+
+            modal.style.display = 'flex';
+            modalImg.src = selectedImage.src;
+            modalImg.alt = selectedImage.alt;
+            updateNavigationButtons();
+        };
+
+        const closeImageModal = () => {
+            if (!modal || !modalImg) {
+                return;
+            }
+
+            modal.style.display = 'none';
+            modalImg.src = '#';
+            modalImg.alt = 'Vergrote projectafbeelding';
+            currentImages = [];
+            currentImageIndex = 0;
+        };
+
+        if (modal && modalImg && closeModal && prevButton && nextButton) {
+            screenshotGroups.forEach((group) => {
+                const groupImages = Array.from(group.querySelectorAll('img'));
+
+                groupImages.forEach((image, index) => {
+                    image.addEventListener('click', () => {
+                        currentImages = groupImages;
+                        showImage(index);
+                    });
+                });
+            });
+
+            prevButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                showImage(currentImageIndex - 1);
+            });
+
+            nextButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                showImage(currentImageIndex + 1);
+            });
+
+            closeModal.addEventListener('click', closeImageModal);
+
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    closeImageModal();
+                }
+            });
+
+            document.addEventListener('keydown', (event) => {
+                if (modal.style.display !== 'flex') {
+                    return;
+                }
+
+                if (event.key === 'Escape') {
+                    closeImageModal();
+                }
+
+                if (event.key === 'ArrowLeft' && currentImages.length > 1) {
+                    showImage(currentImageIndex - 1);
+                }
+
+                if (event.key === 'ArrowRight' && currentImages.length > 1) {
+                    showImage(currentImageIndex + 1);
+                }
+            });
+        }
+    });
 </script>
-
-<script src="../js/script.js"></script>
 
 </body>
 </html>

@@ -13,16 +13,16 @@
 <header>
     <i class='bx bx-menu' id="menu-icon"></i>
 
-    <!-- Navigatiemenu uitgezet -->
+    <!-- Navigation menu disabled on the home page -->
     <!--<nav aria-label="Hoofdmenu">
         <a href="index.html" class="active">Home</a>
-        <a href="over_mij.html">Over Mij</a>
-        <a href="opleidingen_certificaten.html">Opleidingen & Certificaten</a>
-        <a href="werkervaring.html">Werkervaring</a>
-        <a href="skills.html">Skills</a>
-        <a href="projecten.html">Projecten</a>
-        <a href="contact.html">Contact</a>
-    </nav> -->
+        <a href="Pages/over_mij.html">Over Mij</a>
+        <a href="Pages/opleidingen_certificaten.html">Opleidingen & Certificaten</a>
+        <a href="Pages/werkervaring.html">Werkervaring</a>
+        <a href="Pages/skills.html">Skills</a>
+        <a href="Pages/projecten.html">Projecten</a>
+        <a href="Pages/contact.html">Contact</a>
+    </nav>-->
 </header>
 <!-- Startpagina met naam, typanimatie en foto -->
 <section class="home active">
@@ -70,9 +70,11 @@
     const menuIcon = document.querySelector('#menu-icon');
     const nav = document.querySelector('nav');
 
-    menuIcon.onclick = () => {
-        nav.classList.toggle('active');
-    };
+    if (menuIcon && nav) {
+        menuIcon.onclick = () => {
+            nav.classList.toggle('active');
+        };
+    }
 </script>
 </body>
 </html>

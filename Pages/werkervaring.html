@@ -103,8 +103,19 @@
     </div>
 </footer>
 
-<!-- Script voor functionaliteit -->
-<script src="../js/script.js"></script>
+<!-- Script voor mobiel menu -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuIcon = document.querySelector('#menu-icon');
+        const nav = document.querySelector('nav');
+
+        if (menuIcon && nav) {
+            menuIcon.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        }
+    });
+</script>
 
 </body>
 </html>

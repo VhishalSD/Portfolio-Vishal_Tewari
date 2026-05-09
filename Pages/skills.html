@@ -111,7 +111,7 @@
         <p>BBL-student Software Developer · Techniek College Rotterdam</p>
 
         <div class="footer-socials">
-            <a href="../Pages/contact.html" title="Contactformulier">
+            <a href="contact.html" title="Contactformulier">
                 <i class='bx bx-message-rounded-dots'></i>
             </a>
             <a href="https://github.com/VhishalSD" target="_blank" title="GitHub">
@@ -131,7 +131,19 @@
     </div>
 </footer>
 
-<script src="../js/script.js"></script>
+<!-- Script voor mobiel menu -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuIcon = document.querySelector('#menu-icon');
+        const nav = document.querySelector('nav');
+
+        if (menuIcon && nav) {
+            menuIcon.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        }
+    });
+</script>
 
 </body>
 </html>

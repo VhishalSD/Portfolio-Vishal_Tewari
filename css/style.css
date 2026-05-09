@@ -1784,4 +1784,75 @@ footer .footer-text {
     opacity: 1;
 }
 
+/* Horizontal screenshot slider for project cards */
+.screenshot-scroll {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+}
+
+.screenshot-scroll img {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+
+.screenshot-scroll {
+    scrollbar-width: none;
+}
+
+.screenshot-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Modal navigation buttons for project screenshots */
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4.8rem;
+    height: 4.8rem;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.45);
+    color: var(--white-color);
+    font-size: 2.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+    transition: 0.25s ease;
+}
+
+.modal-prev {
+    left: 3rem;
+}
+
+.modal-next {
+    right: 3rem;
+}
+
+.modal-nav:hover {
+    background: var(--main-color);
+}
+
+@media (max-width: 768px) {
+    .modal-nav {
+        width: 4rem;
+        height: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .modal-prev {
+        left: 1rem;
+    }
+
+    .modal-next {
+        right: 1rem;
+    }
+}
 
